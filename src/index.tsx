@@ -6,6 +6,11 @@ import { Routers } from './routers/Routers';
 import reportWebVitals from './reportWebVitals';
 
 
+if (process.env.NODE_ENV === 'development')
+{
+	import('./mocks/server');
+}
+
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
 );
