@@ -11,6 +11,7 @@
     "@types/react": "^18.3.14",
     "@types/react-dom": "^18.3.2",
     "bootstrap": "^5.3.3",
+    "gridjs": "^6.2.0",
     "gridjs-react": "^6.1.1",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
