@@ -1,10 +1,11 @@
 
-import React from 'react';
 import logo from './logo.svg';
 
-import './App.css';
+import './styles.css';
 
-function App () {
+
+export function Home ()
+{
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -24,5 +25,3 @@ function App () {
 		</div>
 	);
 }
-
-export default App;
